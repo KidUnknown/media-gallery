@@ -800,3 +800,7 @@ if (isset($_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR']) && file_exists($_SERVER['D
   require $_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR'] . '/loc_drupal_8_9_1_dd.inc';
 }
 // </DDSETTINGS>
+
+$settinngs['config_sync_directory'] = 'sites/default/files/config_acqTmp-2020-10-04T15.29.45-8800/sync';
+//$settinngs['config_stage_directory'] = 'sites/default/files/config_acqTmp-2020-10-04T15.29.45-8800/stage';
+//$settinngs['config_dev_directory'] = 'sites/default/files/config_acqTmp-2020-10-04T15.29.45-8800/dev';

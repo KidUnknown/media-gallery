@@ -1,0 +1,14 @@
+uuid: fc1b6d9a-ed78-4e20-9724-0d3c96d577af
+name: 'media gallery'
+mail: jonathan_theobald+mediagallery@dennis.co.uk
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

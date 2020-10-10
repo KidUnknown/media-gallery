@@ -801,6 +801,6 @@ if (isset($_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR']) && file_exists($_SERVER['D
 }
 // </DDSETTINGS>
 
-$settinngs['config_sync_directory'] = 'sites/default/files/config_acqTmp-2020-10-04T15.29.45-8800/sync';
+$settings['config_sync_directory'] = 'sites/default/files/config_acqTmp-2020-10-04T15.29.45-8800/sync';
 //$settinngs['config_stage_directory'] = 'sites/default/files/config_acqTmp-2020-10-04T15.29.45-8800/stage';
 //$settinngs['config_dev_directory'] = 'sites/default/files/config_acqTmp-2020-10-04T15.29.45-8800/dev';

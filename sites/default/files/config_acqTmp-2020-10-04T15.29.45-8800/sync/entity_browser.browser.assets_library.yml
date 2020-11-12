@@ -56,7 +56,7 @@ widgets:
     id: entity_form
   4a46aa02-d203-4932-ba98-9d091cc82ed4:
     settings:
-      form_mode: default
+      form_mode: embed_image
       media_type: image
       upload_location: 'public://[date:custom:Y]-[date:custom:m]'
       dropzone_description: 'Drop files here to upload them'

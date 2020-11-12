@@ -28,10 +28,10 @@ sites/default/files
 #/web/sites/default/services.yml
 #/web/sites/all/drush
 #web/sites/development.services.yml
-sites/example.settings.local.php
-sites/example.sites.php
-sites/sites.php
-update.php
+# sites/example.settings.local.php
+# sites/example.sites.php
+# sites/sites.php
+# update.php
 # web.config
 # core
 # web/modules/contrib

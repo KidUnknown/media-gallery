@@ -13,6 +13,7 @@ dependencies:
   module:
     - comment
     - image
+    - inline_entity_form
     - path
     - text
 _core:
@@ -47,12 +48,19 @@ content:
   field_feature_assets:
     weight: 2
     settings:
+      form_mode: default
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: true
       match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      revision: false
+      override_labels: false
+      collapsible: false
+      collapsed: false
+      allow_duplicate: false
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: inline_entity_form_complex
     region: content
   field_image:
     type: image_image

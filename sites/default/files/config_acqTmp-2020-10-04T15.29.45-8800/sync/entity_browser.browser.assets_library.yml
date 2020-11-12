@@ -1,7 +1,15 @@
 uuid: 55c60c64-64cb-4bee-b4aa-4cb6fd4ea85b
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - media.type.image
+    - views.view.assets_library
+  module:
+    - dropzonejs_eb_widget
+    - entity_browser_entity_form
+    - media
+    - views
 name: assets_library
 label: 'Assets library'
 display: iframe
@@ -23,6 +31,45 @@ widgets:
       multiple: '1'
       submit_text: 'Select files'
     uuid: da47bde1-5f68-407d-953a-c2a996f4d6c9
-    weight: 1
-    label: Upload
+    weight: -9
+    label: 'Upload images'
     id: media_image_upload
+  08133c18-1591-4b78-ac83-10a13934658a:
+    settings:
+      view: assets_library
+      view_display: entity_browser_1
+      submit_text: 'Select entities'
+      auto_select: false
+    uuid: 08133c18-1591-4b78-ac83-10a13934658a
+    weight: -7
+    label: 'View Library'
+    id: view
+  ca1e0158-6647-4324-852b-bfa692d0ecf7:
+    settings:
+      entity_type: media
+      bundle: remote_video
+      form_mode: default
+      submit_text: 'Save entity'
+    uuid: ca1e0158-6647-4324-852b-bfa692d0ecf7
+    weight: -8
+    label: 'Add Youtube video'
+    id: entity_form
+  4a46aa02-d203-4932-ba98-9d091cc82ed4:
+    settings:
+      form_mode: default
+      media_type: image
+      upload_location: 'public://[date:custom:Y]-[date:custom:m]'
+      dropzone_description: 'Drop files here to upload them'
+      max_filesize: 128M
+      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+      clientside_resize: false
+      resize_width: null
+      resize_height: null
+      resize_quality: !!float 1
+      resize_method: contain
+      thumbnail_method: contain
+      submit_text: 'Select entities'
+    uuid: 4a46aa02-d203-4932-ba98-9d091cc82ed4
+    weight: -10
+    label: 'Image dropzone'
+    id: dropzonejs_media_entity_inline_entity_form

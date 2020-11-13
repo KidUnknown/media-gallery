@@ -1,4 +1,4 @@
-uuid: 62e58b00-3dc5-4797-a34f-faca80d60eed
+uuid: c7c4e40e-ac66-4119-8ff0-35ecee22899c
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - jonathan_theobald+mediagallery@dennis.co.uk
+  - jonathan_theobald+media@dennis.co.uk
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

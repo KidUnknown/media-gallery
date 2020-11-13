@@ -1,4 +1,4 @@
-uuid: fb0f0d35-8fd5-4f4c-822e-0e3e2c7560cd
+uuid: e4089d22-1bdd-4ed8-9fa8-edfd17e7a513
 langcode: en
 status: true
 dependencies:
@@ -17,21 +17,29 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
   field_media_oembed_video:
     type: oembed_textfield
-    weight: 0
+    weight: 1
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     region: content
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -39,12 +47,12 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 100
+    weight: 5
     region: content
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 2
     settings:
       match_operator: CONTAINS
       match_limit: 10
@@ -52,5 +60,4 @@ content:
       placeholder: ''
     region: content
     third_party_settings: {  }
-hidden:
-  name: true
+hidden: {  }

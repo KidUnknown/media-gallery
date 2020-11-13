@@ -1,0 +1,45 @@
+# Ignore paths that contain generated content.
+files/
+sites/*/files
+sites/*/private
+web/themes/custom/**/dist/css
+web/themes/custom/**/dist/js
+# .sass-cache
+# node_modules
+# npm-debug.log
+# phpunit.xml
+# behat.yml
+
+# Core
+# vendor
+# .*
+# autoload.php
+# index.php
+# profiles
+robots.txt
+sites/default/files
+# sites/default/default.services.yml
+# sites/default/default.settings.php
+# sites/default/settings.db.php
+# sites/default/settings.local.php
+# sites/default/settings.memcache.php
+#/web/sites/default/settings.php
+#/web/sites/default/settings.trusted_host_patterns.php
+#/web/sites/default/services.yml
+#/web/sites/all/drush
+#web/sites/development.services.yml
+# sites/example.settings.local.php
+# sites/example.sites.php
+# sites/sites.php
+# update.php
+# web.config
+# core
+# web/modules/contrib
+# web/modules/custom
+# web/themes/contrib
+# web/libraries
+
+# IDE/System folders
+.idea
+.DS_Store
+node_modules
